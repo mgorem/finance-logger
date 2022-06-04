@@ -12,3 +12,10 @@ inputs.forEach(input => {
 
 // Command for automatically compiling once a change is made and file is saved:
 // tsc sandbox.ts -w
+
+// Declaring what type of variable we expect to be passed to a function as an argument
+
+const circ = (diameter:number) =>{
+    return diameter * Math.PI;
+}
+console.log(circ(7));
